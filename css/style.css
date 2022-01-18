@@ -1,0 +1,34 @@
+body {
+  background-color: #F0F1F2;
+  font-family: 'Poppins', sans-serif;
+  color: #656268
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.box-app {
+  padding: 2rem;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.converted-value-card {
+  background-color: #5F6Bc8;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.converted-value {
+  color: #F1F0F2;
+  font-size: 3rem;
+}
+
+.conversion-precision {
+  font-weight: bold;
+}
+
+.form-select {
+  background-color: #F0F1F2;
+}
