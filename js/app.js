@@ -31,7 +31,7 @@ const fetchData = async endpoint => {
   }
 }
 
-const renderErrorMessage = (message) => {
+const renderErrorMessage = message => {
   errorMessageParagraph.textContent = message
   errorMessageParagraph.classList.add('alert', 'alert-danger')
 }
@@ -73,7 +73,7 @@ currencyToInput.addEventListener('input', event => {
   convertCurrency(currencyFrom, currencyTo, currencyTimes.value)
 });
 
-currencyTimes.addEventListener('input', (event) => {
+currencyTimes.addEventListener('input', event => {
   const conversionPrecisionValue = conversionPrecision.textContent
   const currencyTimes = event.target.value
 
